@@ -1,0 +1,17 @@
+package com.example.demo.model;
+
+import lombok.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document("publishers")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Publisher {
+
+    @Id
+    private String pubId;
+    private String name;
+    private String address;
+}

@@ -1,0 +1,10 @@
+spring.application.name=SpringBootWebFlux_Assign2_AvinashChaudhary
+# Application Port
+server.port=8084
+
+# MongoDB Atlas URI
+spring.data.mongodb.uri=mongodb+srv://n01656219:Avinash*2001@ite5315-avinash.n7l9e.mongodb.net/library_mgmt?retryWrites=true&w=majority
+
+# Logging levels
+logging.level.org.springframework=ERROR
+logging.level.com=TRACE
